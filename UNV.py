@@ -14,7 +14,7 @@ import subprocess
 import os
 import platform
 
-if platform.system() != "Windows":
+if platform.system() in ("Linux", "Darwin"):
     import resource
 import signal
 import logging
