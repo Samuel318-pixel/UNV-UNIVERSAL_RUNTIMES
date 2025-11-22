@@ -14,7 +14,7 @@ This file is the heart of the .unv. Complete example:
 {
   "name": "My App",
   "version": "1.0.0",
-  "entry": "main.py",
+  "entry": "main",
   "description": "My application using UNV Runtime",
   "permissions": {
     "network": false,
